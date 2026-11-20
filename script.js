@@ -32,34 +32,33 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 3. WhatsApp / Consultation Modal
-  const contactModal = document.getElementById('contactModal');
-  const closeModalBtn = document.getElementById('closeModalBtn');
-  const serviceSelect = document.getElementById('serviceSelect');
-  const contactForm = document.getElementById('whatsappForm');
+  // 3. Direct WhatsApp Redirect (+55 19 98151-5127) for all buttons & links
+  const WHATSAPP_NUMBER = '5519981515127';
 
-  const openModal = (preselectedService = '') => {
-    if (!contactModal) return;
-    if (preselectedService && serviceSelect) {
-      serviceSelect.value = preselectedService;
-    }
-    contactModal.classList.add('active');
-    contactModal.setAttribute('aria-hidden', 'false');
-  };
-
-  const closeModal = () => {
-    if (!contactModal) return;
-    contactModal.classList.remove('active');
-    contactModal.setAttribute('aria-hidden', 'true');
+  const openDirectWhatsApp = (topic = '') => {
+    const baseMsg = topic
+      ? `Olá, Dr. Nilson Madureira Pará! Vim pelo site e gostaria de informações sobre: ${topic}.`
+      : `Olá, Dr. Nilson Madureira Pará! Vim pelo site e gostaria de agendar uma análise previdenciária.`;
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(baseMsg)}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
   };
 
   document.querySelectorAll('[data-open-whatsapp]').forEach((btn) => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const topic = btn.getAttribute('data-open-whatsapp') || '';
-      openModal(topic);
+      openDirectWhatsApp(topic);
     });
   });
+
+  // Keep modal close logic intact if needed
+  const contactModal = document.getElementById('contactModal');
+  const closeModalBtn = document.getElementById('closeModalBtn');
+  const closeModal = () => {
+    if (!contactModal) return;
+    contactModal.classList.remove('active');
+    contactModal.setAttribute('aria-hidden', 'true');
+  };
 
   if (closeModalBtn) {
     closeModalBtn.addEventListener('click', closeModal);
@@ -81,7 +80,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Handle WhatsApp form submission
+  // Handle WhatsApp form submission (fallback)
+  const contactForm = document.getElementById('whatsappForm');
+  const serviceSelect = document.getElementById('serviceSelect');
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
