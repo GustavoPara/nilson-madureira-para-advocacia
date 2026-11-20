@@ -6,26 +6,23 @@
   <title>Sua aposentadoria é aqui! — Nilson Madureira Pará Advocacia</title>
   <meta name="description" content="Nilson Madureira Pará Advocacia: Excelência em direito previdenciário. Soluções jurídicas personalizadas para garantir seus direitos e benefícios junto ao INSS.">
 
-  <!-- Google Fonts: Libre Baskerville (Authoritative Legal Serif) & Montserrat (Full-Bodied Sans) -->
+  <!-- Google Fonts: Libre Baskerville & Montserrat -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Main Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- ========================================================================
-       1. STICKY HEADER
-       ======================================================================== -->
+  <!-- 1. HEADER -->
   <header class="site-header" id="siteHeader">
     <div class="container header__inner">
       <a href="#hero" class="brand" aria-label="Nilson Madureira Pará Advocacia - Início">
-        <div class="brand__monogram">NP</div>
+        <div class="brand__mark" aria-hidden="true">NP</div>
         <div class="brand__text">
           <span class="brand__name">Nilson Madureira Pará</span>
-          <span class="brand__tagline">Advocacia Previdenciária</span>
+          <span class="brand__sub">Advocacia Previdenciária</span>
         </div>
       </a>
 
@@ -39,14 +36,14 @@
         </ul>
       </nav>
 
-      <button class="btn btn--gold header__cta" data-open-whatsapp="Atendimento Geral">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <button class="btn btn--primary header__cta" data-open-whatsapp="Atendimento Geral">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
         </svg>
         <span>Falar no WhatsApp</span>
       </button>
 
-      <button class="mobile-toggle" id="mobileToggle" aria-label="Alternar menu" aria-expanded="false">
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu" aria-expanded="false">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
           <line x1="3" y1="6" x2="21" y2="6"></line>
           <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -57,173 +54,121 @@
   </header>
 
   <main>
-    <!-- ======================================================================
-         2. HERO SECTION
-         ====================================================================== -->
+    <!-- 2. HERO (SIGNATURE EDITORIAL SPLIT) -->
     <section class="hero" id="hero">
-      <div class="container hero__grid">
-        <div class="hero__content">
-          <div class="eyebrow">
-            <span class="eyebrow__dot"></span>
-            <span>Especialistas em Ações Contra o INSS</span>
-          </div>
+      <div class="container">
+        <div class="hero__layout">
+          <div class="hero__content">
+            <p class="hero__kicker">Direito Previdenciário e Ações contra o INSS</p>
 
-          <h1 class="hero__title">
-            Transformando Vidas Através do <span>Direito Previdenciário</span>
-          </h1>
+            <h1 class="hero__title">
+              Transformando Vidas Através do Direito Previdenciário
+            </h1>
 
-          <p class="hero__description">
-            Ajudamos você a conquistar a sua <strong>aposentadoria</strong> com clareza, empatia e sem burocracia!
-          </p>
+            <p class="hero__description">
+              Ajudamos você a conquistar a sua <strong>aposentadoria</strong> com clareza, empatia e sem burocracia.
+            </p>
 
-          <div class="hero__actions">
-            <button class="btn btn--gold" data-open-whatsapp="Análise de Aposentadoria">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-              </svg>
-              <span>Falar no WhatsApp</span>
-            </button>
-            <a href="#servicos" class="btn btn--outline">Conhecer Serviços</a>
-          </div>
-
-          <div class="hero__trust">
-            <div class="trust-stat">
-              <div class="trust-stat__value">+15 Anos</div>
-              <div class="trust-stat__label">De atuação na área</div>
+            <div class="hero__actions">
+              <button class="btn btn--primary" data-open-whatsapp="Análise de Aposentadoria">
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                </svg>
+                <span>Falar no WhatsApp</span>
+              </button>
+              <a href="#servicos" class="btn btn--ghost">Conhecer serviços</a>
             </div>
-            <div class="trust-stat">
-              <div class="trust-stat__value">Especialista</div>
-              <div class="trust-stat__label">Na área previdenciária</div>
-            </div>
-          </div>
-        </div>
 
-        <div class="hero__visual">
-          <div class="floating-pill">
-            <div class="floating-pill__icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                <path d="m9 12 2 2 4-4"/>
-              </svg>
-            </div>
-            <div class="floating-pill__text">
-              <strong>Atendimento Simplificado</strong>
-              <span>Busca ativa de documentos</span>
-            </div>
-          </div>
-
-          <div class="portrait-frame">
-            <div class="portrait-frame__inner">
-              <img
-                src="assets/nilson-parana-suit.jpg"
-                alt="Dr. Nilson Madureira Pará - Advogado Especialista em Direito Previdenciário"
-                class="portrait-frame__img"
-                fetchpriority="high"
-              >
-              <div class="portrait-frame__overlay">
-                <div class="portrait-badge">
-                  <div class="portrait-badge__info">
-                    <h3>Dr. Nilson Madureira Pará</h3>
-                    <p>Advogado Fundador • Especialista INSS</p>
-                  </div>
-                  <div class="portrait-badge__seal" aria-hidden="true">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
-                    </svg>
-                  </div>
-                </div>
+            <div class="hero__credentials">
+              <div>
+                <div class="credential__value">+15 Anos</div>
+                <div class="credential__label">De atuação na área</div>
               </div>
+              <div>
+                <div class="credential__value">Especialista</div>
+                <div class="credential__label">Na área previdenciária</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__portrait-stage">
+            <img
+              src="assets/nilson-parana-suit.jpg"
+              alt="Dr. Nilson Madureira Pará, advogado especialista em Direito Previdenciário"
+              class="hero__portrait-img"
+              fetchpriority="high"
+            >
+            <div class="hero__portrait-caption">
+              <div class="hero__portrait-name">Dr. Nilson Madureira Pará</div>
+              <div class="hero__portrait-role">Advogado Fundador, Especialista em Ações contra o INSS</div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ======================================================================
-         3. AUTHORITY TICKER BANNER
-         ====================================================================== -->
-    <div class="ticker-banner" role="region" aria-label="Especialidades em destaque">
-      <div class="container ticker-banner__inner">
-        <div class="ticker-item">
-          <span class="ticker-item__diamond"></span>
-          <span>Ações Contra o INSS</span>
-        </div>
-        <div class="ticker-item">
-          <span class="ticker-item__diamond"></span>
-          <span>Aposentadoria Rural</span>
-        </div>
-        <div class="ticker-item">
-          <span class="ticker-item__diamond"></span>
-          <span>Aposentadoria Especial</span>
-        </div>
+    <!-- 3. PRACTICE FOCUS STRIP -->
+    <div class="focus-strip" role="region" aria-label="Especialidades principais">
+      <div class="container focus-strip__inner">
+        <span>Ações contra o INSS</span>
+        <span class="focus-strip__sep" aria-hidden="true">/</span>
+        <span>Aposentadoria Rural</span>
+        <span class="focus-strip__sep" aria-hidden="true">/</span>
+        <span>Aposentadoria Especial</span>
       </div>
     </div>
 
-    <!-- ======================================================================
-         4. SERVICES SECTION (6 CARDS FROM MODEL)
-         ====================================================================== -->
+    <!-- 4. SERVICES SECTION (HUMAN STORIES + 6 ARCHITECTURAL CARDS) -->
     <section class="services" id="servicos">
       <div class="container">
-        <div class="section-header">
-          <div class="eyebrow">
-            <span class="eyebrow__dot"></span>
-            <span>Áreas de Atuação</span>
-          </div>
-          <h2 class="section-title">
-            Com vasta experiência na área previdenciária, oferecemos soluções com um <u>atendimento simplificado</u> visando conseguir <em>benefícios do INSS</em> no menor tempo possível!
+        <div class="section-intro">
+          <h2 class="section-heading">
+            Com vasta experiência na área previdenciária, oferecemos soluções com um atendimento simplificado visando conseguir benefícios do INSS no menor tempo possível.
           </h2>
+          <p class="section-lead">
+            Assumimos a busca de documentos, a análise técnica do seu histórico contributivo e o acompanhamento completo do pedido para que você tenha tranquilidade.
+          </p>
         </div>
 
-        <!-- Destaques Visuais: Idosos (Aposentadoria) & Família Feliz (Proteção Familiar / BPC-LOAS) -->
-        <div class="people-banners">
-          <div class="people-banner-card">
-            <img
-              src="assets/idosos-aposentadoria.jpg"
-              alt="Casal de idosos sorrindo com tranquilidade na aposentadoria"
-              class="people-banner-card__img"
-              loading="lazy"
-            >
-            <div class="people-banner-card__overlay"></div>
-            <div class="people-banner-card__content">
-              <span class="people-banner-card__tag">Aposentadoria Tranquila</span>
-              <h3 class="people-banner-card__title">Dignidade e Segurança para Quem Trabalhou a Vida Inteira</h3>
-              <p class="people-banner-card__text">
-                Garantimos que cada ano do seu esforço seja reconhecido pelo INSS com o melhor benefício possível.
-              </p>
+        <!-- Fotos de Pessoas: Idosos na Aposentadoria & Família Feliz -->
+        <div class="human-stories">
+          <figure class="story-panel">
+            <div class="story-panel__media">
+              <img
+                src="assets/idosos-aposentadoria.jpg"
+                alt="Casal de idosos sorrindo com tranquilidade na aposentadoria"
+                loading="lazy"
+              >
             </div>
-          </div>
+            <figcaption class="story-panel__body">
+              <h3 class="story-panel__title">Aposentadoria com dignidade e segurança</h3>
+              <p class="story-panel__desc">
+                Garantimos que cada ano do seu trabalho seja reconhecido pelo INSS para que você desfrute o futuro com tranquilidade financeira.
+              </p>
+            </figcaption>
+          </figure>
 
-          <div class="people-banner-card">
-            <img
-              src="assets/familia-feliz.jpg"
-              alt="Família brasileira feliz e protegida"
-              class="people-banner-card__img"
-              loading="lazy"
-            >
-            <div class="people-banner-card__overlay"></div>
-            <div class="people-banner-card__content">
-              <span class="people-banner-card__tag">Proteção à Família &amp; BPC-LOAS</span>
-              <h3 class="people-banner-card__title">Amparo Jurídico Completo para Você e Sua Família</h3>
-              <p class="people-banner-card__text">
-                Atendimento humano e acolhedor para proteger a renda e o futuro de quem você mais ama.
-              </p>
+          <figure class="story-panel">
+            <div class="story-panel__media">
+              <img
+                src="assets/familia-feliz.jpg"
+                alt="Família brasileira feliz e protegida"
+                loading="lazy"
+              >
             </div>
-          </div>
+            <figcaption class="story-panel__body">
+              <h3 class="story-panel__title">Amparo jurídico para você e sua família</h3>
+              <p class="story-panel__desc">
+                Atendimento humano e acessível para proteger a renda familiar em casos de BPC-LOAS, pensões, auxílios e incapacidade.
+              </p>
+            </figcaption>
+          </figure>
         </div>
 
+        <!-- 6 Cards de Serviço (Preservando integralmente os gatilhos do modelo) -->
         <div class="services__grid">
-          <!-- Card 1: Aposentadoria Rural -->
           <article class="service-card">
-            <div class="service-card__top">
-              <div class="service-card__header">
-                <div class="service-card__icon" aria-hidden="true">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 2v20"/>
-                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-                  </svg>
-                </div>
-                <span class="service-card__num">01</span>
-              </div>
+            <div>
               <h3 class="service-card__title">Aposentadoria Rural</h3>
               <p class="service-card__desc">
                 Oferecemos suporte completo na busca de documentos e comprovações para trabalhadores rurais, facilitando a obtenção do benefício.
@@ -232,25 +177,13 @@
                 Nós cuidamos de toda a documentação necessária. Com o nosso método de trabalho, você só precisa fornecer os documentos dos seus irmãos e familiares.
               </p>
             </div>
-            <button class="btn btn--card" data-open-whatsapp="Aposentadoria Rural">
-              <span>Clique aqui para saber mais</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <button class="btn--service" data-open-whatsapp="Aposentadoria Rural">
+              Clique aqui para saber mais
             </button>
           </article>
 
-          <!-- Card 2: Aposentadoria Especial -->
           <article class="service-card">
-            <div class="service-card__top">
-              <div class="service-card__header">
-                <div class="service-card__icon" aria-hidden="true">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                    <path d="M12 8v4"/>
-                    <path d="M12 16h.01"/>
-                  </svg>
-                </div>
-                <span class="service-card__num">02</span>
-              </div>
+            <div>
               <h3 class="service-card__title">Aposentadoria Especial</h3>
               <p class="service-card__desc">
                 Reconhecemos atividades insalubres ou perigosas, assegurando um processo mais ágil e seguro.
@@ -259,23 +192,13 @@
                 Contamos com uma equipe especializada na obtenção das provas necessárias, como PPPs (Perfil Profissiográfico Previdenciário), para garantir o reconhecimento do seu direito.
               </p>
             </div>
-            <button class="btn btn--card" data-open-whatsapp="Aposentadoria Especial">
-              <span>Clique aqui para saber mais</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <button class="btn--service" data-open-whatsapp="Aposentadoria Especial">
+              Clique aqui para saber mais
             </button>
           </article>
 
-          <!-- Card 3: Auxílio Acidente -->
           <article class="service-card">
-            <div class="service-card__top">
-              <div class="service-card__header">
-                <div class="service-card__icon" aria-hidden="true">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                  </svg>
-                </div>
-                <span class="service-card__num">03</span>
-              </div>
+            <div>
               <h3 class="service-card__title">Auxílio Acidente</h3>
               <p class="service-card__desc">
                 Orientação especializada para quem sofreu sequelas, precisou mudar de profissão ou teve redução na capacidade de trabalho.
@@ -284,26 +207,13 @@
                 Realizamos uma análise minuciosa para agilizar a liberação do benefício, assumindo toda a parte burocrática do processo.
               </p>
             </div>
-            <button class="btn btn--card" data-open-whatsapp="Auxílio Acidente">
-              <span>Clique aqui para saber mais</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <button class="btn--service" data-open-whatsapp="Auxílio Acidente">
+              Clique aqui para saber mais
             </button>
           </article>
 
-          <!-- Card 4: BPC-LOAS -->
           <article class="service-card">
-            <div class="service-card__top">
-              <div class="service-card__header">
-                <div class="service-card__icon" aria-hidden="true">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
-                    <circle cx="9" cy="7" r="4"/>
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                  </svg>
-                </div>
-                <span class="service-card__num">04</span>
-              </div>
+            <div>
               <h3 class="service-card__title">BPC-LOAS</h3>
               <p class="service-card__desc">
                 Benefício assistencial para idosos e pessoas com deficiência em situação de vulnerabilidade.
@@ -312,26 +222,13 @@
                 Oferecemos uma avaliação completa, com foco no atendimento personalizado à família e na orientação acessível para garantir seus direitos.
               </p>
             </div>
-            <button class="btn btn--card" data-open-whatsapp="BPC-LOAS">
-              <span>Clique aqui para saber mais</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <button class="btn--service" data-open-whatsapp="BPC-LOAS">
+              Clique aqui para saber mais
             </button>
           </article>
 
-          <!-- Card 5: Revisão de Aposentadoria -->
           <article class="service-card">
-            <div class="service-card__top">
-              <div class="service-card__header">
-                <div class="service-card__icon" aria-hidden="true">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"/>
-                    <path d="m21 21-4.3-4.3"/>
-                    <path d="M11 8v6"/>
-                    <path d="M8 11h6"/>
-                  </svg>
-                </div>
-                <span class="service-card__num">05</span>
-              </div>
+            <div>
               <h3 class="service-card__title">Revisão de Aposentadoria</h3>
               <p class="service-card__desc">
                 Analisamos o histórico previdenciário para identificar se o benefício foi calculado com o valor correto desde o início.
@@ -340,25 +237,13 @@
                 Muitas aposentadorias são concedidas com erros que reduzem o valor final. Nossa equipe verifica cada detalhe do seu CNIS para garantir que você receba o que realmente tem direito.
               </p>
             </div>
-            <button class="btn btn--card" data-open-whatsapp="Revisão de Aposentadoria">
-              <span>Clique aqui para saber mais</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <button class="btn--service" data-open-whatsapp="Revisão de Aposentadoria">
+              Clique aqui para saber mais
             </button>
           </article>
 
-          <!-- Card 6: Auxílio-Doença -->
           <article class="service-card">
-            <div class="service-card__top">
-              <div class="service-card__header">
-                <div class="service-card__icon" aria-hidden="true">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
-                    <path d="M12 8v6"/>
-                    <path d="M9 11h6"/>
-                  </svg>
-                </div>
-                <span class="service-card__num">06</span>
-              </div>
+            <div>
               <h3 class="service-card__title">Auxílio-Doença</h3>
               <p class="service-card__desc">
                 Orientação especializada para quem teve o benefício negado ou cancelado pelo INSS por incapacidade temporária para o trabalho.
@@ -367,30 +252,23 @@
                 Reunimos toda a documentação médica e previdenciária necessária para comprovar sua incapacidade e garantir a concessão ou reestabelecimento do benefício.
               </p>
             </div>
-            <button class="btn btn--card" data-open-whatsapp="Auxílio-Doença">
-              <span>Clique aqui para saber mais</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <button class="btn--service" data-open-whatsapp="Auxílio-Doença">
+              Clique aqui para saber mais
             </button>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ======================================================================
-         5. QUEM SOMOS + NILSON PARANÁ NA MÍDIA
-         ====================================================================== -->
+    <!-- 5. QUEM SOMOS + NILSON MADUREIRA PARÁ NA MÍDIA -->
     <section class="about" id="quemsomos">
       <div class="container">
         <div class="about__grid">
-          <div class="about__text">
-            <div class="eyebrow eyebrow--dark">
-              <span class="eyebrow__dot"></span>
-              <span>Quem Somos</span>
-            </div>
-            <h2 class="section-title section-title--light">
-              Uma Equipe que Se Importa com o <em>Seu Futuro</em>
+          <div class="about__body">
+            <h2 class="section-heading section-heading--inverse">
+              Uma Equipe que Se Importa com o Seu Futuro
             </h2>
-            <p class="about__lead">
+            <p>
               Somos um escritório especializado em Direito Previdenciário, com atendimento dedicado e foco total na defesa dos seus direitos.
             </p>
             <p>
@@ -400,211 +278,169 @@
               Acreditamos que cada cliente tem uma história única. Por isso, unimos conhecimento técnico, criatividade e dedicação para alcançar resultados reais e transformar vidas.
             </p>
 
-            <div class="about__pillars">
-              <div class="about-pillar">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            <div class="about__highlights">
+              <div class="about__highlight-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>
                 <span>+15 Anos de Atuação na Área</span>
               </div>
-              <div class="about-pillar">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
-                <span>Especialista na Área</span>
+              <div class="about__highlight-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Especialista na Área Previdenciária</span>
               </div>
             </div>
           </div>
 
-          <div class="about__card">
-            <div class="about__card-grid">
+          <aside class="founder-dossier">
+            <div class="founder-dossier__top">
               <img
                 src="assets/nilson-parana-suit.jpg"
                 alt="Dr. Nilson Madureira Pará"
-                class="about__avatar"
+                class="founder-dossier__photo"
                 loading="lazy"
               >
-              <div class="about__bio">
-                <div class="about__bio-role">Sócio-Fundador</div>
-                <h3>Dr. Nilson Madureira Pará</h3>
-                <p>
-                  Especialista na defesa do segurado em ações contra o INSS, com atuação pautada na ética, transparência e agilidade documental.
+              <div>
+                <h3 class="founder-dossier__name">Dr. Nilson Madureira Pará</h3>
+                <p class="founder-dossier__role">Advogado Fundador</p>
+              </div>
+            </div>
+            <blockquote class="founder-dossier__quote">
+              “Por trás de cada processo previdenciário existe uma vida inteira de trabalho que merece respeito, dignidade e segurança financeira.”
+            </blockquote>
+          </aside>
+        </div>
+
+        <!-- Nilson Madureira Pará na Mídia -->
+        <div class="media-block">
+          <div class="media-block__header">
+            <h3 class="media-block__title">Nilson Madureira Pará na Mídia</h3>
+            <p class="media-block__sub">Selecione um dos destaques abaixo para ler o resumo da participação.</p>
+          </div>
+
+          <div class="media-list">
+            <button class="media-item" data-media-id="1" type="button">
+              <div>
+                <h4 class="media-item__title">Como reverter negativas indevidas do INSS com segurança</h4>
+                <p class="media-item__desc">Entenda como a análise técnica e a busca ativa de documentos destravam benefícios negados.</p>
+              </div>
+              <span class="media-item__action">Conferir participação</span>
+            </button>
+
+            <button class="media-item" data-media-id="2" type="button">
+              <div>
+                <h4 class="media-item__title">Aposentadoria Rural e Especial: direitos que muitos desconhecem</h4>
+                <p class="media-item__desc">Como somar tempo rural ou insalubre para antecipar a aposentadoria e melhorar a renda mensal.</p>
+              </div>
+              <span class="media-item__action">Conferir participação</span>
+            </button>
+
+            <button class="media-item" data-media-id="3" type="button">
+              <div>
+                <h4 class="media-item__title">BPC-LOAS e Auxílio-Acidente: proteção para quem mais precisa</h4>
+                <p class="media-item__desc">Orientações práticas sobre perícia médica, avaliação social e proteção à família vulnerável.</p>
+              </div>
+              <span class="media-item__action">Conferir participação</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. POR QUE CONTRATAR NOSSOS SERVIÇOS? (5 TRIGGERS) -->
+    <section class="reasons" id="diferenciais">
+      <div class="container">
+        <div class="reasons__layout">
+          <div class="reasons__sticky">
+            <h2 class="section-heading">Por que contratar nossos serviços?</h2>
+            <p class="section-lead">
+              Nosso método combina atendimento próximo e investigação documental rigorosa para evitar indeferimentos e atrasos desnecessários.
+            </p>
+          </div>
+
+          <div class="reasons__list">
+            <div class="reason-row">
+              <div class="reason-row__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <h3 class="reason-row__title">Atendimento realizado por humanos</h3>
+                <p class="reason-row__desc">
+                  Nossa busca é por te compreender para melhor atender, por isso você pode se comunicar por mensagem, áudio, vídeo ou pelo bom e velho atendimento presencial.
                 </p>
               </div>
             </div>
-            <blockquote class="about__quote">
-              “Por trás de cada processo previdenciário existe uma vida inteira de trabalho que merece respeito, dignidade e segurança financeira.”
-            </blockquote>
-          </div>
-        </div>
 
-        <!-- Nilson Madureira Pará na Mídia (3 Cards from Model) -->
-        <div class="media-showcase">
-          <div class="media-showcase__header">
-            <h3>Nilson Madureira Pará na Mídia</h3>
-            <p>Clique nos destaques abaixo para conferir nossas participações e orientações públicas 👇🏻</p>
-          </div>
-
-          <div class="media-grid">
-            <button class="media-card" data-media-id="1" type="button">
-              <div>
-                <div class="media-card__top">
-                  <span class="media-card__tag">Destaque 01 • Imprensa</span>
-                  <span class="media-card__play" aria-hidden="true">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                  </span>
-                </div>
-                <h4 style="margin-top: 18px;">Como reverter negativas indevidas do INSS com segurança</h4>
-                <p>Entenda como a análise técnica e a busca ativa de documentos destravam benefícios negados.</p>
+            <div class="reason-row">
+              <div class="reason-row__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>
               </div>
-              <span class="media-card__action">
-                Conferir participação
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-              </span>
-            </button>
-
-            <button class="media-card" data-media-id="2" type="button">
               <div>
-                <div class="media-card__top">
-                  <span class="media-card__tag">Destaque 02 • Especial</span>
-                  <span class="media-card__play" aria-hidden="true">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                  </span>
-                </div>
-                <h4 style="margin-top: 18px;">Aposentadoria Rural e Especial: direitos que muitos desconhecem</h4>
-                <p>Como somar tempo rural ou insalubre para antecipar a aposentadoria e melhorar a renda mensal.</p>
+                <h3 class="reason-row__title">Busca Ativa de Documentos</h3>
+                <p class="reason-row__desc">
+                  Não deixamos você sozinho com a burocracia. Investigamos e coletamos as provas necessárias, economizando seu tempo e garantindo mais segurança.
+                </p>
               </div>
-              <span class="media-card__action">
-                Conferir participação
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-              </span>
-            </button>
+            </div>
 
-            <button class="media-card" data-media-id="3" type="button">
-              <div>
-                <div class="media-card__top">
-                  <span class="media-card__tag">Destaque 03 • Cidadania</span>
-                  <span class="media-card__play" aria-hidden="true">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                  </span>
-                </div>
-                <h4 style="margin-top: 18px;">BPC-LOAS e Auxílio-Acidente: proteção para quem mais precisa</h4>
-                <p>Orientações práticas sobre perícia médica, avaliação social e proteção à família vulnerável.</p>
+            <div class="reason-row">
+              <div class="reason-row__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>
               </div>
-              <span class="media-card__action">
-                Conferir participação
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-              </span>
-            </button>
+              <div>
+                <h3 class="reason-row__title">Equipe Altamente Especializada</h3>
+                <p class="reason-row__desc">
+                  Anos de prática e estudo contínuo em Direito Previdenciário para entregar soluções rápidas e eficientes.
+                </p>
+              </div>
+            </div>
+
+            <div class="reason-row">
+              <div class="reason-row__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <h3 class="reason-row__title">Orientação Personalizada</h3>
+                <p class="reason-row__desc">
+                  Cada caso é tratado de forma individual. Você recebe acompanhamento próximo durante todo o processo, sem surpresas.
+                </p>
+              </div>
+            </div>
+
+            <div class="reason-row">
+              <div class="reason-row__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <h3 class="reason-row__title">Transparência e Resultados</h3>
+                <p class="reason-row__desc">
+                  Preocupamo-nos em mantê-lo informado sobre cada etapa, buscando sempre a melhor estratégia para seu benefício.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ======================================================================
-         6. POR QUE CONTRATAR NOSSOS SERVIÇOS? (5 TRIGGERS FROM MODEL)
-         ====================================================================== -->
-    <section class="reasons" id="diferenciais">
+    <!-- 7. HIGH-CONVERSION CTA BANNER -->
+    <section class="cta-section">
       <div class="container">
-        <div class="section-header">
-          <div class="eyebrow">
-            <span class="eyebrow__dot"></span>
-            <span>Nossos Compromissos</span>
-          </div>
-          <h2 class="section-title">Por que contratar nossos serviços?</h2>
-        </div>
-
-        <div class="reasons__grid">
-          <!-- Trigger 1 -->
-          <div class="reason-card">
-            <div class="reason-card__check" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"/>
-              </svg>
-            </div>
-            <h3 class="reason-card__title">Atendimento realizado por humanos</h3>
-            <p class="reason-card__desc">
-              Nossa busca é por te compreender para melhor atender, por isso você pode se comunicar por mensagem, áudio, vídeo ou pelo bom e velho atendimento presencial.
-            </p>
-          </div>
-
-          <!-- Trigger 2 -->
-          <div class="reason-card">
-            <div class="reason-card__check" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"/>
-              </svg>
-            </div>
-            <h3 class="reason-card__title">Busca Ativa de Documentos</h3>
-            <p class="reason-card__desc">
-              Não deixamos você sozinho com a burocracia. Investigamos e coletamos as provas necessárias, economizando seu tempo e garantindo mais segurança.
-            </p>
-          </div>
-
-          <!-- Trigger 3 -->
-          <div class="reason-card">
-            <div class="reason-card__check" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"/>
-              </svg>
-            </div>
-            <h3 class="reason-card__title">Equipe Altamente Especializada</h3>
-            <p class="reason-card__desc">
-              Anos de prática e estudo contínuo em Direito Previdenciário para entregar soluções rápidas e eficientes.
-            </p>
-          </div>
-
-          <!-- Trigger 4 -->
-          <div class="reason-card">
-            <div class="reason-card__check" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"/>
-              </svg>
-            </div>
-            <h3 class="reason-card__title">Orientação Personalizada</h3>
-            <p class="reason-card__desc">
-              Cada caso é tratado de forma individual. Você recebe acompanhamento próximo durante todo o processo, sem surpresas.
-            </p>
-          </div>
-
-          <!-- Trigger 5 -->
-          <div class="reason-card">
-            <div class="reason-card__check" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"/>
-              </svg>
-            </div>
-            <h3 class="reason-card__title">Transparência e Resultados</h3>
-            <p class="reason-card__desc">
-              Preocupamo-nos em mantê-lo informado sobre cada etapa, buscando sempre a melhor estratégia para seu benefício.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======================================================================
-         7. HIGH-CONVERSION CTA BANNER
-         ====================================================================== -->
-    <section class="cta-banner">
-      <div class="container">
-        <div class="cta-box">
-          <div class="cta-box__content">
-            <div class="eyebrow eyebrow--dark">
-              <span class="eyebrow__dot"></span>
-              <span>Análise Previdenciária</span>
-            </div>
-            <h2 class="cta-box__title">
+        <div class="cta-panel">
+          <div class="cta-panel__content">
+            <h2 class="cta-panel__title">
               Pronto para Conquistar Seu Benefício Previdenciário?
             </h2>
-            <p class="cta-box__desc">
+            <p class="cta-panel__desc">
               Agende agora uma análise e descubra como podemos agilizar o seu processo, seja para aposentadoria, auxílio-acidente ou BPC-LOAS.
             </p>
-            <button class="btn btn--gold" data-open-whatsapp="Agendar Análise de Benefício">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <button class="btn btn--inverse" data-open-whatsapp="Agendar Análise de Benefício">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
               </svg>
               <span>Falar no WhatsApp</span>
             </button>
           </div>
 
-          <div class="cta-box__image-wrap">
+          <div class="cta-panel__media">
             <img
               src="assets/idosos-aposentadoria.jpg"
               alt="Casal de idosos aproveitando a aposentadoria com tranquilidade"
@@ -615,143 +451,115 @@
       </div>
     </section>
 
-    <!-- ======================================================================
-         8. BLOG & ARTICLES SECTION (6 CARDS FROM MODEL)
-         ====================================================================== -->
+    <!-- 8. BLOG & ARTICLES (6 CARDS) -->
     <section class="blog" id="blog">
       <div class="container">
-        <div class="section-header">
-          <div class="eyebrow">
-            <span class="eyebrow__dot"></span>
-            <span>Informação Jurídica</span>
-          </div>
-          <h2 class="section-title">Confira nossas Dicas e Artigos</h2>
-          <p class="section-subtitle" style="margin: 14px auto 0;">
-            Acompanhe conteúdos exclusivos sobre as principais novidades, dicas e orientações jurídicas que podem fazer a diferença no seu dia a dia. Fique por dentro!
+        <div class="section-intro">
+          <h2 class="section-heading">Confira nossas Dicas e Artigos</h2>
+          <p class="section-lead">
+            Acompanhe conteúdos exclusivos sobre as principais novidades, dicas e orientações jurídicas que podem fazer a diferença no seu dia a dia.
           </p>
         </div>
 
         <div class="blog__grid">
-          <!-- Article 1 -->
-          <article class="blog-card">
-            <div class="blog-card__thumb">
+          <article class="article-card">
+            <div class="article-card__thumb">
               <img src="assets/blog-biometria.webp" alt="Biometria do INSS" loading="lazy">
-              <span class="blog-card__badge">INSS</span>
             </div>
-            <div class="blog-card__body">
-              <h3 class="blog-card__title">
-                Biometria do INSS: quem precisa e o que é boato
-              </h3>
-              <a href="#contato" class="blog-card__link" data-open-whatsapp="Dúvida sobre Biometria do INSS">
-                <span>Leia aqui o artigo »</span>
-              </a>
-            </div>
+            <span class="article-card__category">INSS</span>
+            <h3 class="article-card__title">
+              Biometria do INSS: quem precisa e o que é boato
+            </h3>
+            <a href="#contato" class="article-card__link" data-open-whatsapp="Dúvida sobre Biometria do INSS">
+              Leia aqui o artigo
+            </a>
           </article>
 
-          <!-- Article 2 -->
-          <article class="blog-card">
-            <div class="blog-card__thumb">
+          <article class="article-card">
+            <div class="article-card__thumb">
               <img src="assets/blog-transicao.webp" alt="Aposentadoria em 2027: regras de transição" loading="lazy">
-              <span class="blog-card__badge">INSS</span>
             </div>
-            <div class="blog-card__body">
-              <h3 class="blog-card__title">
-                Aposentadoria em 2027: o que muda nas regras de transição
-              </h3>
-              <a href="#contato" class="blog-card__link" data-open-whatsapp="Dúvida sobre Regras de Transição">
-                <span>Leia aqui o artigo »</span>
-              </a>
-            </div>
+            <span class="article-card__category">INSS</span>
+            <h3 class="article-card__title">
+              Aposentadoria em 2027: o que muda nas regras de transição
+            </h3>
+            <a href="#contato" class="article-card__link" data-open-whatsapp="Dúvida sobre Regras de Transição">
+              Leia aqui o artigo
+            </a>
           </article>
 
-          <!-- Article 3 -->
-          <article class="blog-card">
-            <div class="blog-card__thumb">
+          <article class="article-card">
+            <div class="article-card__thumb">
               <img src="assets/blog-ppp.webp" alt="Como conseguir o PPP de empresa fechada" loading="lazy">
-              <span class="blog-card__badge">Aposentadoria Especial</span>
             </div>
-            <div class="blog-card__body">
-              <h3 class="blog-card__title">
-                Como conseguir o PPP de empresa fechada e provar o tempo especial
-              </h3>
-              <a href="#contato" class="blog-card__link" data-open-whatsapp="PPP de Empresa Fechada">
-                <span>Leia aqui o artigo »</span>
-              </a>
-            </div>
+            <span class="article-card__category">Aposentadoria Especial</span>
+            <h3 class="article-card__title">
+              Como conseguir o PPP de empresa fechada e provar o tempo especial
+            </h3>
+            <a href="#contato" class="article-card__link" data-open-whatsapp="PPP de Empresa Fechada">
+              Leia aqui o artigo
+            </a>
           </article>
 
-          <!-- Article 4 -->
-          <article class="blog-card">
-            <div class="blog-card__thumb">
+          <article class="article-card">
+            <div class="article-card__thumb">
               <img src="assets/blog-bpc.webp" alt="BPC LOAS para pessoa com deficiência" loading="lazy">
-              <span class="blog-card__badge">BPC-LOAS</span>
             </div>
-            <div class="blog-card__body">
-              <h3 class="blog-card__title">
-                BPC LOAS para pessoa com deficiência: requisitos e como funciona a avaliação
-              </h3>
-              <a href="#contato" class="blog-card__link" data-open-whatsapp="BPC-LOAS Pessoa com Deficiência">
-                <span>Leia aqui o artigo »</span>
-              </a>
-            </div>
+            <span class="article-card__category">BPC-LOAS</span>
+            <h3 class="article-card__title">
+              BPC LOAS para pessoa com deficiência: requisitos e como funciona a avaliação
+            </h3>
+            <a href="#contato" class="article-card__link" data-open-whatsapp="BPC-LOAS Pessoa com Deficiência">
+              Leia aqui o artigo
+            </a>
           </article>
 
-          <!-- Article 5 -->
-          <article class="blog-card">
-            <div class="blog-card__thumb">
+          <article class="article-card">
+            <div class="article-card__thumb">
               <img src="assets/blog-limbo.webp" alt="Limbo previdenciário" loading="lazy">
-              <span class="blog-card__badge">Benefício por Incapacidade</span>
             </div>
-            <div class="blog-card__body">
-              <h3 class="blog-card__title">
-                Limbo previdenciário: o que fazer quando o INSS dá alta e a empresa não aceita
-              </h3>
-              <a href="#contato" class="blog-card__link" data-open-whatsapp="Situação de Limbo Previdenciário">
-                <span>Leia aqui o artigo »</span>
-              </a>
-            </div>
+            <span class="article-card__category">Benefício por Incapacidade</span>
+            <h3 class="article-card__title">
+              Limbo previdenciário: o que fazer quando o INSS dá alta e a empresa não aceita
+            </h3>
+            <a href="#contato" class="article-card__link" data-open-whatsapp="Situação de Limbo Previdenciário">
+              Leia aqui o artigo
+            </a>
           </article>
 
-          <!-- Article 6 -->
-          <article class="blog-card">
-            <div class="blog-card__thumb">
+          <article class="article-card">
+            <div class="article-card__thumb">
               <img src="assets/blog-alta.webp" alt="INSS me deu alta e não consigo trabalhar" loading="lazy">
-              <span class="blog-card__badge">Benefício por Incapacidade</span>
             </div>
-            <div class="blog-card__body">
-              <h3 class="blog-card__title">
-                INSS me deu alta e não consigo trabalhar: o que fazer agora
-              </h3>
-              <a href="#contato" class="blog-card__link" data-open-whatsapp="Alta Indevida do INSS">
-                <span>Leia aqui o artigo »</span>
-              </a>
-            </div>
+            <span class="article-card__category">Benefício por Incapacidade</span>
+            <h3 class="article-card__title">
+              INSS me deu alta e não consigo trabalhar: o que fazer agora
+            </h3>
+            <a href="#contato" class="article-card__link" data-open-whatsapp="Alta Indevida do INSS">
+              Leia aqui o artigo
+            </a>
           </article>
         </div>
 
         <div class="blog__footer">
-          <button class="btn btn--gold" data-open-whatsapp="Receber Orientações e Artigos">
-            <span>Acessar todos os artigos</span>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          <button class="btn btn--navy" data-open-whatsapp="Receber Orientações e Artigos">
+            Acessar todos os artigos
           </button>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ========================================================================
-       9. FOOTER & UNIDADES
-       ======================================================================== -->
+  <!-- 9. FOOTER & UNIDADES -->
   <footer class="site-footer" id="unidades">
     <div class="container">
       <div class="footer__grid">
-        <!-- Col 1: Brand -->
         <div class="footer__about">
-          <a href="#hero" class="brand brand--light">
-            <div class="brand__monogram">NP</div>
+          <a href="#hero" class="brand brand--inverse">
+            <div class="brand__mark" aria-hidden="true">NP</div>
             <div class="brand__text">
               <span class="brand__name">Nilson Madureira Pará</span>
-              <span class="brand__tagline">Advocacia Previdenciária</span>
+              <span class="brand__sub">Advocacia Previdenciária</span>
             </div>
           </a>
           <p>
@@ -759,81 +567,28 @@
           </p>
         </div>
 
-        <!-- Col 2: Principais Serviços -->
         <div>
           <h3 class="footer__heading">Principais Serviços</h3>
           <ul class="footer__list">
-            <li>
-              <a href="#servicos" data-open-whatsapp="Aposentadoria Especial">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-                <span>Aposentadoria Especial</span>
-              </a>
-            </li>
-            <li>
-              <a href="#servicos" data-open-whatsapp="Aposentadoria Rural">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-                <span>Aposentadoria Rural</span>
-              </a>
-            </li>
-            <li>
-              <a href="#servicos" data-open-whatsapp="Auxílio Acidente">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-                <span>Auxílio Acidente</span>
-              </a>
-            </li>
-            <li>
-              <a href="#servicos" data-open-whatsapp="BPC-LOAS">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-                <span>BPC-LOAS</span>
-              </a>
-            </li>
+            <li><a href="#servicos" data-open-whatsapp="Aposentadoria Especial">Aposentadoria Especial</a></li>
+            <li><a href="#servicos" data-open-whatsapp="Aposentadoria Rural">Aposentadoria Rural</a></li>
+            <li><a href="#servicos" data-open-whatsapp="Auxílio Acidente">Auxílio Acidente</a></li>
+            <li><a href="#servicos" data-open-whatsapp="BPC-LOAS">BPC-LOAS</a></li>
           </ul>
         </div>
 
-        <!-- Col 3: Nossos Endereços -->
         <div>
           <h3 class="footer__heading">Nossos Endereços</h3>
           <ul class="footer__list">
-            <li>
-              <a href="https://maps.app.goo.gl/CnhC1hoFxL7zHL9R8" target="_blank" rel="noopener noreferrer">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Unidade Americana (Matriz)</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/7TBvACubxRCGRfoN6" target="_blank" rel="noopener noreferrer">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Unidade Sumaré</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/nRhFKebjdBAErdi27" target="_blank" rel="noopener noreferrer">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Unidade Campinas</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/vdUnSy4SuRmGA8PeA" target="_blank" rel="noopener noreferrer">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Unidade Hortolândia</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/6g56FhjRHoLbvxcn6" target="_blank" rel="noopener noreferrer">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Unidade Piracicaba</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/vSFxsMPnXnTpBLsT7" target="_blank" rel="noopener noreferrer">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Unidade Limeira</span>
-              </a>
-            </li>
+            <li><a href="https://maps.app.goo.gl/CnhC1hoFxL7zHL9R8" target="_blank" rel="noopener noreferrer">Unidade Americana (Matriz)</a></li>
+            <li><a href="https://maps.app.goo.gl/7TBvACubxRCGRfoN6" target="_blank" rel="noopener noreferrer">Unidade Sumaré</a></li>
+            <li><a href="https://maps.app.goo.gl/nRhFKebjdBAErdi27" target="_blank" rel="noopener noreferrer">Unidade Campinas</a></li>
+            <li><a href="https://maps.app.goo.gl/vdUnSy4SuRmGA8PeA" target="_blank" rel="noopener noreferrer">Unidade Hortolândia</a></li>
+            <li><a href="https://maps.app.goo.gl/6g56FhjRHoLbvxcn6" target="_blank" rel="noopener noreferrer">Unidade Piracicaba</a></li>
+            <li><a href="https://maps.app.goo.gl/vSFxsMPnXnTpBLsT7" target="_blank" rel="noopener noreferrer">Unidade Limeira</a></li>
           </ul>
         </div>
 
-        <!-- Col 4: Redes Sociais & Contato -->
         <div>
           <h3 class="footer__heading">Redes Sociais</h3>
           <div class="footer__socials">
@@ -851,15 +606,14 @@
             </a>
           </div>
 
-          <h3 class="footer__heading" style="margin-bottom: 12px;">Entre em contato conosco:</h3>
-          <button class="btn btn--gold" style="width: 100%;" data-open-whatsapp="Contato pelo Rodapé">
-            <span>Falar no WhatsApp</span>
+          <button class="btn btn--inverse" style="width: 100%;" data-open-whatsapp="Contato pelo Rodapé">
+            Falar no WhatsApp
           </button>
         </div>
       </div>
 
       <div class="footer__bottom">
-        <p>NILSON MADUREIRA PARÁ ADVOCACIA | Todos os direitos reservados.</p>
+        <p>Nilson Madureira Pará Advocacia. Todos os direitos reservados.</p>
         <div class="footer__legal">
           <a href="#privacidade" data-open-whatsapp="Políticas de Privacidade">Políticas de privacidade</a>
           <a href="#termos" data-open-whatsapp="Termos de Uso">Termos de uso</a>
@@ -868,16 +622,14 @@
     </div>
   </footer>
 
-  <!-- Floating WhatsApp Trigger -->
+  <!-- Floating WhatsApp -->
   <button class="whatsapp-float" data-open-whatsapp="Atendimento Rápido" aria-label="Falar no WhatsApp com Nilson Madureira Pará Advocacia">
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
     </svg>
   </button>
 
-  <!-- ========================================================================
-       WHATSAPP CONSULTATION MODAL (REPLACING ELEMENTOR POPUP 1034)
-       ======================================================================== -->
+  <!-- Modal WhatsApp -->
   <div class="modal-backdrop" id="contactModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <div class="modal">
       <button class="modal__close" id="closeModalBtn" aria-label="Fechar janela">
@@ -888,7 +640,7 @@
         <img src="assets/nilson-parana-suit.jpg" alt="Dr. Nilson Madureira Pará" class="modal__avatar">
         <div>
           <h3 class="modal__title" id="modalTitle">Falar com Especialista</h3>
-          <p class="modal__subtitle">Dr. Nilson Madureira Pará &amp; Equipe Previdenciária</p>
+          <p class="modal__subtitle">Dr. Nilson Madureira Pará e Equipe Previdenciária</p>
         </div>
       </div>
 
@@ -921,28 +673,26 @@
           <textarea id="clientMessage" class="form-control" rows="2" placeholder="Conte brevemente sua dúvida..."></textarea>
         </div>
 
-        <button type="submit" class="btn btn--gold" style="width: 100%; margin-top: 8px;">
-          <span>Iniciar Conversa no WhatsApp</span>
+        <button type="submit" class="btn btn--primary" style="width: 100%; margin-top: 8px;">
+          Iniciar conversa no WhatsApp
         </button>
       </form>
     </div>
   </div>
 
-  <!-- ========================================================================
-       MEDIA HIGHLIGHT MODAL (REPLACING ELEMENTOR POPUP 912)
-       ======================================================================== -->
+  <!-- Modal Mídia -->
   <div class="modal-backdrop" id="mediaModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="mediaModalTitle">
     <div class="modal">
       <button class="modal__close" id="closeMediaBtn" aria-label="Fechar destaque">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
 
-      <div class="eyebrow" id="mediaModalTag" style="margin-bottom: 12px;">DESTAQUE NA MÍDIA</div>
-      <h3 class="modal__title" id="mediaModalTitle" style="font-size: 1.75rem; margin-bottom: 14px;">Nilson Madureira Pará na Mídia</h3>
-      <p id="mediaModalBody" style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 24px;"></p>
+      <p id="mediaModalTag" style="font-size: 0.78rem; font-weight: 700; color: var(--accent-bronze); margin-bottom: 10px;">Destaque na mídia</p>
+      <h3 class="modal__title" id="mediaModalTitle" style="font-size: 1.45rem; margin-bottom: 14px;">Nilson Madureira Pará na Mídia</h3>
+      <p id="mediaModalBody" style="color: var(--ink-secondary); line-height: 1.7; margin-bottom: 24px;"></p>
 
-      <button class="btn btn--gold" style="width: 100%;" data-open-whatsapp="Vi o destaque na mídia e quero tirar uma dúvida" onclick="document.getElementById('mediaModal').classList.remove('active')">
-        <span>Tirar Dúvida Diretamente no WhatsApp</span>
+      <button class="btn btn--primary" style="width: 100%;" data-open-whatsapp="Vi o destaque na mídia e quero tirar uma dúvida" onclick="document.getElementById('mediaModal').classList.remove('active')">
+        Tirar dúvida no WhatsApp
       </button>
     </div>
   </div>
