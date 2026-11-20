@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const encoded = encodeURIComponent(textParts.join('\n'));
-      const whatsappUrl = `https://wa.me/5519999999999?text=${encoded}`;
+      const whatsappUrl = `https://wa.me/5519981515127?text=${encoded}`;
       window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
       closeModal();
     });
